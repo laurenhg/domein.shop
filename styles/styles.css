@@ -56,6 +56,10 @@ body{
     font-family: "poppins", sans-serif;
 }
 
+h2 {
+    text-align: center;
+}
+
 /*////////////////////////
     3. Areas
 ////////////////////////*/
@@ -129,11 +133,14 @@ body{
 /*///////////// 3.3 Support /////////////*/
 
 
+}
 .support-image {
-  max-width: 100%;
+  max-width: 55%;
     height: auto;
     align-content: center;
    border-radius:25px;
+    display: block;
+    margin: auto;
 }
 
 .support-button {
@@ -142,12 +149,17 @@ body{
     color: white;
     border: none;
     height:45px;
-    width:140px;
+    width:auto;
+    padding: 10px 20px;
     border-radius:40px;
 }
 
 /*///////////// 3.4 Faq /////////////*/
 
+.faq details {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
 
 
 /*///////////// 3.5 Footer /////////////*/
