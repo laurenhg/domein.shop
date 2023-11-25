@@ -1,11 +1,11 @@
 /*////////////////////////////////////////////////////////////////////////
 (gray #899CA0 and dark green #1C2B32) at the top of the file so you can easily copy them;
  */
-@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Poppins:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Poppins:wght@300;400;500;800&display=swap');
 
 
 * {
-    box-sizing: border-box
+    box-sizing: border-box;
 margin: 0;
     padding: 0;
 }
@@ -26,15 +26,27 @@ Table of Contents:
 
 /*////////////////////////
     1. Global Styles
-////////////////////////*/
+
+
+main {
+max-width:
+1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
 
 
 
 /*////////////////////////
     2. Typography
 ////////////////////////*/
-
-
+body {
+    font-family: "poppins", sans-serif
+}
+input,
+body{
+    font-family: inherit;
+}
 
 /*////////////////////////
     3. Areas
@@ -44,11 +56,58 @@ Table of Contents:
 
 /*///////////// 3.1 Header /////////////*/
 
-form.domain-form {
-text-align: center;
+.header-section {
+
+    background-image: url("../assets/images/mountains.jpg");
+    Background-size: auto;
+    Background-repeat: no-repeat;
+    Background-position: center;
+    Height:500px;
+    Width: 1000px;
+    Padding: 100px 100px 50px 50px;
+    Position: relative;
+    text-align: center;
+    font-family: "poppins", sans-serif;
 }
 
+.header-title {
 
+    Font-weight:600;
+    Font-size: 50px;
+    Text-align: center;
+    Margin-bottom: 10px;
+
+}
+
+.header-sub-title {
+
+    Margin: 20px 20px;
+}
+
+.input-form-header {
+    background-color: transparent;
+    font-size: 12px;
+    color: black;
+    height: 45px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 1px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-right: -1px;
+
+}
+.header-button {
+    background-color: black;
+    font-size:12px;
+    color: white;
+    height: 45px;
+    width:190px;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: -3px;
+}
 
 /*///////////// 3.2 Testimonial /////////////*/
 
